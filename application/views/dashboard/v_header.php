@@ -106,12 +106,6 @@
  <i class="nav-icon fas fa-file"></i><p>ARTIKEL</p> 
  </a>
  </li>
- <!-- Menu Artikel -->
- <li class="nav-item">
- <a href="<?php echo base_url().'dashboard/layanan' ?>" class="nav-link">
- <i class="nav-icon fas fa-boxes"></i><p>LAYANAN</p> 
- </a>
- </li>
  <?php
  //cek jika login adalah admin
  if ($this->session->userdata('level')=="admin") {
